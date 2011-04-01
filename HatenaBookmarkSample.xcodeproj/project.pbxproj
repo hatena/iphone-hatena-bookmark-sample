@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26A3AC1A1345D80800FCC660 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A3AC191345D80800FCC660 /* UIKit.framework */; };
+		26A3AC1C1345D80800FCC660 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A3AC1B1345D80800FCC660 /* Foundation.framework */; };
+		26A3AC1E1345D80800FCC660 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A3AC1D1345D80800FCC660 /* CoreGraphics.framework */; };
+		26A3AC241345D80800FCC660 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 26A3AC221345D80800FCC660 /* InfoPlist.strings */; };
+		26A3AC271345D80800FCC660 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A3AC261345D80800FCC660 /* main.m */; };
+		26A3AC2A1345D80800FCC660 /* HatenaBookmarkSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A3AC291345D80800FCC660 /* HatenaBookmarkSampleAppDelegate.m */; };
+		26A3AC2D1345D80800FCC660 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A3AC2B1345D80800FCC660 /* MainWindow.xib */; };
+		26A3AC301345D80800FCC660 /* HatenaBookmarkSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A3AC2F1345D80800FCC660 /* HatenaBookmarkSampleViewController.m */; };
+		26A3AC331345D80800FCC660 /* HatenaBookmarkSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A3AC311345D80800FCC660 /* HatenaBookmarkSampleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26A3AC151345D80800FCC660 /* HatenaBookmarkSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HatenaBookmarkSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A3AC191345D80800FCC660 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		26A3AC1B1345D80800FCC660 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		26A3AC1D1345D80800FCC660 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		26A3AC211345D80800FCC660 /* HatenaBookmarkSample-Info.plist */ = {isa = PBXFileReference; path = "HatenaBookmarkSample-Info.plist"; sourceTree = "<group>"; };
+		26A3AC231345D80800FCC660 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		26A3AC251345D80800FCC660 /* HatenaBookmarkSample-Prefix.pch */ = {isa = PBXFileReference; path = "HatenaBookmarkSample-Prefix.pch"; sourceTree = "<group>"; };
+		26A3AC261345D80800FCC660 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		26A3AC281345D80800FCC660 /* HatenaBookmarkSampleAppDelegate.h */ = {isa = PBXFileReference; path = HatenaBookmarkSampleAppDelegate.h; sourceTree = "<group>"; };
+		26A3AC291345D80800FCC660 /* HatenaBookmarkSampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HatenaBookmarkSampleAppDelegate.m; sourceTree = "<group>"; };
+		26A3AC2C1345D80800FCC660 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		26A3AC2E1345D80800FCC660 /* HatenaBookmarkSampleViewController.h */ = {isa = PBXFileReference; path = HatenaBookmarkSampleViewController.h; sourceTree = "<group>"; };
+		26A3AC2F1345D80800FCC660 /* HatenaBookmarkSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HatenaBookmarkSampleViewController.m; sourceTree = "<group>"; };
+		26A3AC321345D80800FCC660 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HatenaBookmarkSampleViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26A3AC121345D80800FCC660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A3AC1A1345D80800FCC660 /* UIKit.framework in Frameworks */,
+				26A3AC1C1345D80800FCC660 /* Foundation.framework in Frameworks */,
+				26A3AC1E1345D80800FCC660 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26A3AC0A1345D80800FCC660 = {
+			isa = PBXGroup;
+			children = (
+				26A3AC1F1345D80800FCC660 /* HatenaBookmarkSample */,
+				26A3AC181345D80800FCC660 /* Frameworks */,
+				26A3AC161345D80800FCC660 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26A3AC161345D80800FCC660 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26A3AC151345D80800FCC660 /* HatenaBookmarkSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26A3AC181345D80800FCC660 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26A3AC191345D80800FCC660 /* UIKit.framework */,
+				26A3AC1B1345D80800FCC660 /* Foundation.framework */,
+				26A3AC1D1345D80800FCC660 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26A3AC1F1345D80800FCC660 /* HatenaBookmarkSample */ = {
+			isa = PBXGroup;
+			children = (
+				26A3AC281345D80800FCC660 /* HatenaBookmarkSampleAppDelegate.h */,
+				26A3AC291345D80800FCC660 /* HatenaBookmarkSampleAppDelegate.m */,
+				26A3AC2B1345D80800FCC660 /* MainWindow.xib */,
+				26A3AC2E1345D80800FCC660 /* HatenaBookmarkSampleViewController.h */,
+				26A3AC2F1345D80800FCC660 /* HatenaBookmarkSampleViewController.m */,
+				26A3AC311345D80800FCC660 /* HatenaBookmarkSampleViewController.xib */,
+				26A3AC201345D80800FCC660 /* Supporting Files */,
+			);
+			path = HatenaBookmarkSample;
+			sourceTree = "<group>";
+		};
+		26A3AC201345D80800FCC660 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26A3AC211345D80800FCC660 /* HatenaBookmarkSample-Info.plist */,
+				26A3AC221345D80800FCC660 /* InfoPlist.strings */,
+				26A3AC251345D80800FCC660 /* HatenaBookmarkSample-Prefix.pch */,
+				26A3AC261345D80800FCC660 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26A3AC141345D80800FCC660 /* HatenaBookmarkSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A3AC361345D80800FCC660 /* Build configuration list for PBXNativeTarget "HatenaBookmarkSample" */;
+			buildPhases = (
+				26A3AC111345D80800FCC660 /* Sources */,
+				26A3AC121345D80800FCC660 /* Frameworks */,
+				26A3AC131345D80800FCC660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HatenaBookmarkSample;
+			productName = HatenaBookmarkSample;
+			productReference = 26A3AC151345D80800FCC660 /* HatenaBookmarkSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26A3AC0C1345D80800FCC660 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 26A3AC0F1345D80800FCC660 /* Build configuration list for PBXProject "HatenaBookmarkSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 26A3AC0A1345D80800FCC660;
+			productRefGroup = 26A3AC161345D80800FCC660 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26A3AC141345D80800FCC660 /* HatenaBookmarkSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26A3AC131345D80800FCC660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A3AC241345D80800FCC660 /* InfoPlist.strings in Resources */,
+				26A3AC2D1345D80800FCC660 /* MainWindow.xib in Resources */,
+				26A3AC331345D80800FCC660 /* HatenaBookmarkSampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26A3AC111345D80800FCC660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A3AC271345D80800FCC660 /* main.m in Sources */,
+				26A3AC2A1345D80800FCC660 /* HatenaBookmarkSampleAppDelegate.m in Sources */,
+				26A3AC301345D80800FCC660 /* HatenaBookmarkSampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26A3AC221345D80800FCC660 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26A3AC231345D80800FCC660 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		26A3AC2B1345D80800FCC660 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26A3AC2C1345D80800FCC660 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		26A3AC311345D80800FCC660 /* HatenaBookmarkSampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26A3AC321345D80800FCC660 /* en */,
+			);
+			name = HatenaBookmarkSampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26A3AC341345D80800FCC660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		26A3AC351345D80800FCC660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		26A3AC371345D80800FCC660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HatenaBookmarkSample/HatenaBookmarkSample-Prefix.pch";
+				INFOPLIST_FILE = "HatenaBookmarkSample/HatenaBookmarkSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		26A3AC381345D80800FCC660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HatenaBookmarkSample/HatenaBookmarkSample-Prefix.pch";
+				INFOPLIST_FILE = "HatenaBookmarkSample/HatenaBookmarkSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26A3AC0F1345D80800FCC660 /* Build configuration list for PBXProject "HatenaBookmarkSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A3AC341345D80800FCC660 /* Debug */,
+				26A3AC351345D80800FCC660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26A3AC361345D80800FCC660 /* Build configuration list for PBXNativeTarget "HatenaBookmarkSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A3AC371345D80800FCC660 /* Debug */,
+				26A3AC381345D80800FCC660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26A3AC0C1345D80800FCC660 /* Project object */;
+}
