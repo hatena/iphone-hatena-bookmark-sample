@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HatenaBookmarkSampleViewController : UIViewController {
-    
-}
-
+@interface HatenaBookmarkSampleViewController : UIViewController<UIAlertViewDelegate, UITextFieldDelegate>
+@property (nonatomic, retain) IBOutlet UIWebView *webView;
+@property (nonatomic, retain) IBOutlet UITextField *urlTextField;
+-(IBAction)hatenaBookmarkButtonPushed:(id)sender;
 @end

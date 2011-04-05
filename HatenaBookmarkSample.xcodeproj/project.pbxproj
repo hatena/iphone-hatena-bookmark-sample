@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26813140134ABFAB0062AC31 /* NSString+URLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 2681313F134ABFAB0062AC31 /* NSString+URLEncoding.m */; };
 		26A3AC1A1345D80800FCC660 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A3AC191345D80800FCC660 /* UIKit.framework */; };
 		26A3AC1C1345D80800FCC660 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A3AC1B1345D80800FCC660 /* Foundation.framework */; };
 		26A3AC1E1345D80800FCC660 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A3AC1D1345D80800FCC660 /* CoreGraphics.framework */; };
@@ -19,18 +20,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2681313E134ABFAB0062AC31 /* NSString+URLEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncoding.h"; sourceTree = "<group>"; };
+		2681313F134ABFAB0062AC31 /* NSString+URLEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncoding.m"; sourceTree = "<group>"; };
 		26A3AC151345D80800FCC660 /* HatenaBookmarkSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HatenaBookmarkSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A3AC191345D80800FCC660 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		26A3AC1B1345D80800FCC660 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		26A3AC1D1345D80800FCC660 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		26A3AC211345D80800FCC660 /* HatenaBookmarkSample-Info.plist */ = {isa = PBXFileReference; path = "HatenaBookmarkSample-Info.plist"; sourceTree = "<group>"; };
+		26A3AC211345D80800FCC660 /* HatenaBookmarkSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HatenaBookmarkSample-Info.plist"; sourceTree = "<group>"; };
 		26A3AC231345D80800FCC660 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		26A3AC251345D80800FCC660 /* HatenaBookmarkSample-Prefix.pch */ = {isa = PBXFileReference; path = "HatenaBookmarkSample-Prefix.pch"; sourceTree = "<group>"; };
+		26A3AC251345D80800FCC660 /* HatenaBookmarkSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HatenaBookmarkSample-Prefix.pch"; sourceTree = "<group>"; };
 		26A3AC261345D80800FCC660 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		26A3AC281345D80800FCC660 /* HatenaBookmarkSampleAppDelegate.h */ = {isa = PBXFileReference; path = HatenaBookmarkSampleAppDelegate.h; sourceTree = "<group>"; };
+		26A3AC281345D80800FCC660 /* HatenaBookmarkSampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HatenaBookmarkSampleAppDelegate.h; sourceTree = "<group>"; };
 		26A3AC291345D80800FCC660 /* HatenaBookmarkSampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HatenaBookmarkSampleAppDelegate.m; sourceTree = "<group>"; };
 		26A3AC2C1345D80800FCC660 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		26A3AC2E1345D80800FCC660 /* HatenaBookmarkSampleViewController.h */ = {isa = PBXFileReference; path = HatenaBookmarkSampleViewController.h; sourceTree = "<group>"; };
+		26A3AC2E1345D80800FCC660 /* HatenaBookmarkSampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HatenaBookmarkSampleViewController.h; sourceTree = "<group>"; };
 		26A3AC2F1345D80800FCC660 /* HatenaBookmarkSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HatenaBookmarkSampleViewController.m; sourceTree = "<group>"; };
 		26A3AC321345D80800FCC660 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HatenaBookmarkSampleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +88,8 @@
 				26A3AC2E1345D80800FCC660 /* HatenaBookmarkSampleViewController.h */,
 				26A3AC2F1345D80800FCC660 /* HatenaBookmarkSampleViewController.m */,
 				26A3AC311345D80800FCC660 /* HatenaBookmarkSampleViewController.xib */,
+				2681313E134ABFAB0062AC31 /* NSString+URLEncoding.h */,
+				2681313F134ABFAB0062AC31 /* NSString+URLEncoding.m */,
 				26A3AC201345D80800FCC660 /* Supporting Files */,
 			);
 			path = HatenaBookmarkSample;
@@ -164,6 +169,7 @@
 				26A3AC271345D80800FCC660 /* main.m in Sources */,
 				26A3AC2A1345D80800FCC660 /* HatenaBookmarkSampleAppDelegate.m in Sources */,
 				26A3AC301345D80800FCC660 /* HatenaBookmarkSampleViewController.m in Sources */,
+				26813140134ABFAB0062AC31 /* NSString+URLEncoding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +282,7 @@
 				26A3AC381345D80800FCC660 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
